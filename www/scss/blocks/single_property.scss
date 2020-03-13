@@ -1,0 +1,98 @@
+.single-property {
+    .wrap {
+        max-width: 1920px;
+        margin: auto;
+        padding: 0 60px;
+        @media screen and (max-width:768px) {
+            padding: 0 20px;
+          }
+          @media screen and (max-width:480px) {
+            padding: 0 10px;
+        }
+        .single-property-content {
+            max-width: 1134px;
+            margin: auto;
+            
+            .title {
+                color: #85b749;
+                font-family: 'NeoSansCyrMedium';
+                font-size: 32px;
+                text-align: center;
+                padding: 100px 0px;
+                letter-spacing: 2px;
+                max-width: 815px;
+                margin: auto;
+                @media screen and (max-width:768px) {
+                    padding: 80px 0px 100px 0px;
+                    max-width: 635px;
+                }
+
+                @media screen and (max-width:480px) and (min-height:461px) {
+                    padding: 80px 0px 55px 0px;
+                }
+                @media screen and (max-height:460px)   {
+                    padding: 30px 0px 55px 0px;
+                }
+
+            }
+            .single-property-list-wrap {
+                background-color: #00010e;
+                border-top: 40px solid #8abe4b;
+                @media screen and (max-width:480px) {
+                    margin: 0 -10px;
+                }
+                .single-property-list {
+                    padding-bottom: 90px;
+                    .item {
+                        border-left: 10px solid #8abe4b;
+                        margin-top: 90px;
+                        padding: 0 40px 0 90px;
+                        color: white;
+                        font-family: 'NeoSansCyrRegular';
+                        font-size: 22px;
+                        line-height: 28px;
+                        letter-spacing: 1px;
+                        text-align: justify;
+                        @media screen and (max-width:768px) {
+                            padding: 0 40px 0 30px;
+                            margin-top: 70px;
+                        }
+                        @media screen and (max-width:480px) {
+                            margin-left: 10px;
+                            padding: 0 15px 0 30px;
+                        }
+                        @media screen and (max-width:360px) {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+        .payment {
+            padding: 60px 0px 0px 0px;
+
+            @media screen and (max-width:768px) {
+                padding: 10px 0px 30px 0px;
+                
+            }
+
+            .payment-logo {
+                text-align: center;
+            }
+            .payment-info {
+                color: #8abe4b;
+                font-family: 'NeoSansCyrMedium';
+                font-size: 28px;
+                line-height: 30px;
+                text-align: center;
+                max-width: 600px;
+                margin: auto;
+                line-height: 34px;
+                letter-spacing: 2px;
+                @media screen and(max-width:480px) {
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,217 @@
+@media screen and (min-width: 769px) {
+  .contacts {
+    margin-bottom: 105px;
+  }
+}
+.contacts .wrap {
+  max-width: 1920px;
+  margin: auto;
+}
+.contacts .wrap .contacts-content {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .contacts .wrap .contacts-content {
+    background-color: #040404;
+  }
+}
+.contacts .wrap .contacts-content .left-side {
+  width: 50%;
+  height: 975px;
+  background-image: url(./../../img/contacts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  .contacts .wrap .contacts-content .left-side {
+    width: 20%;
+    transform: translateY(80px);
+    -webkit-transform: translateY(80px);
+    -moz-transform: translateY(80px);
+    -ms-transform: translateY(80px);
+    -o-transform: translateY(80px);
+  }
+}
+.contacts .wrap .contacts-content .right-side {
+  width: 50%;
+  background-color: #040404;
+  padding: 100px 130px 70px 130px;
+  position: relative;
+}
+@media screen and (min-width: 769px) {
+  .contacts .wrap .contacts-content .right-side {
+    padding: 100px 130px 0px 130px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .contacts .wrap .contacts-content .right-side {
+    padding: 100px 20px 0px 130px;
+  }
+}
+@media screen and (max-width: 1074px) {
+  .contacts .wrap .contacts-content .right-side {
+    padding: 100px 20px 0px 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contacts .wrap .contacts-content .right-side {
+    width: 80%;
+    padding: 120px 60px 0px 45px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contacts .wrap .contacts-content .right-side {
+    width: 80%;
+    padding: 120px 10px 0px 45px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .contacts .wrap .contacts-content .right-side {
+    padding: 120px 10px 0px 25px;
+  }
+}
+.contacts .wrap .contacts-content .right-side .title {
+  color: white;
+  font-family: "NeoSansCyrMedium";
+  font-size: 52px;
+}
+@media screen and (max-width: 425px) {
+  .contacts .wrap .contacts-content .right-side .title {
+    font-size: 42px;
+  }
+}
+.contacts .wrap .contacts-content .right-side .info {
+  color: white;
+  display: flex;
+  padding: 50px 0 60px 0;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 769px) {
+  .contacts .wrap .contacts-content .right-side .info {
+    padding: 50px 0 0px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contacts .wrap .contacts-content .right-side .info {
+    flex-direction: column;
+  }
+}
+.contacts .wrap .contacts-content .right-side .info span {
+  background: #8abe4b;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+.contacts .wrap .contacts-content .right-side .info .phone {
+  margin-right: 120px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .contacts .wrap .contacts-content .right-side .info .phone {
+    margin-right: 0;
+  }
+}
+.contacts .wrap .contacts-content .right-side .info .phone .phone-title {
+  font-family: "NeoSansCyrLight";
+  font-size: 16px;
+  padding-bottom: 22px;
+}
+.contacts .wrap .contacts-content .right-side .info .phone .phone-value {
+  font-family: "NeoSansCyrMedium";
+  font-size: 28px;
+  width: max-content;
+}
+@media screen and (max-width: 425px) {
+  .contacts .wrap .contacts-content .right-side .info .phone .phone-value {
+    font-size: 22px;
+  }
+}
+.contacts .wrap .contacts-content .right-side .info .email .email-title {
+  font-family: "NeoSansCyrLight";
+  font-size: 16px;
+  padding-bottom: 22px;
+}
+.contacts .wrap .contacts-content .right-side .info .email .email-value {
+  font-family: "NeoSansCyrMedium";
+  font-size: 28px;
+}
+@media screen and (max-width: 425px) {
+  .contacts .wrap .contacts-content .right-side .info .email .email-value {
+    font-size: 22px;
+  }
+}
+.contacts .wrap .contacts-content .right-side .contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  background-color: white;
+  padding: 30px;
+  position: relative;
+  left: -190px;
+}
+@media screen and (max-width: 768px) {
+  .contacts .wrap .contacts-content .right-side .contact-form {
+    left: -130px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contacts .wrap .contacts-content .right-side .contact-form {
+    left: -138px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .contacts .wrap .contacts-content .right-side .contact-form {
+    left: -120px;
+    width: 360px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .contacts .wrap .contacts-content .right-side .contact-form {
+    left: -90px;
+    width: 340px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .contacts .wrap .contacts-content .right-side .contact-form {
+    left: -80px;
+    width: 290px;
+  }
+}
+.contacts .wrap .contacts-content .right-side .contact-form p {
+  color: #1a1a1a;
+  font-family: "NeoSansCyrMedium";
+  font-size: 32px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.contacts .wrap .contacts-content .right-side .contact-form input,
+.contacts .wrap .contacts-content .right-side .contact-form textarea {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+  font-family: "NeoSansCyrRegular";
+  font-size: 16px;
+}
+.contacts .wrap .contacts-content .right-side .contact-form button {
+  background-color: #316229;
+  color: white;
+  font-family: "NeoSansCyrRegular";
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 25px;
+}

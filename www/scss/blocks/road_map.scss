@@ -1,0 +1,145 @@
+.road-map {
+    background-image: url(../img/roads_map_bg.png) ;
+    background-size: cover;
+
+    .wrap {
+        max-width: 1920px;
+        margin: auto;
+        padding: 0 60px;
+        padding-top: 200px;
+        padding-bottom: 120px;
+        @media screen and(max-width:768px) {
+            padding-top: 150px;
+            padding-bottom: 90px;
+        }
+        @media screen and(max-width:480px) {
+            padding-bottom: 70px;
+            padding: 200px 30px 70px 30px
+        }
+        // @media screen and(max-width:768px) {
+        //     padding-top: 150px;
+        // }
+
+        .title {
+            color: white;
+            font-size: 52px;
+            font-family: 'NeoSansCyrMedium';
+            text-align: center;
+            padding: 30px 0 60px 0;
+            letter-spacing: 3px;
+            @media screen and(max-width:768px) {
+                font-size: 48px;
+                padding: 30px 0 30px 0;
+            }
+            @media screen and(max-width:480px) {
+                font-size: 44px;
+            }
+            @media screen and(max-width:360px) {
+                font-size: 37px;
+                padding: 30px 0 30px 0;
+            }
+        }
+        .road-map-items {
+            .slick-slide {
+                margin: 0 5px;
+                @media screen and(max-width:480px) {
+                    margin: 0 30px;
+                }
+            }
+            .slick-next {
+                cursor: pointer;
+                position: absolute;
+                top: 45%;
+                right: -30px;
+
+                width: 35px;
+                height: 35px;
+                border: 1px solid white;
+                background-color: inherit;
+                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+                -moz-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                -o-transform: rotate(45deg);
+                border-left: none;
+                border-bottom: none;
+                outline: none;
+                @media screen and(max-width:768px) {
+                    width: 25px;
+                    height: 25px;
+                    right: -20px;
+                }
+                @media screen and(max-width:480px) {
+                    right: -10px;
+                }
+            }
+            .slick-prev {
+                cursor: pointer;
+                position: absolute;
+                top: 45%;
+                left: -30px;
+
+                width: 35px;
+                height: 35px;
+                border: 1px solid white;
+                background-color: inherit;
+                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+                -moz-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                -o-transform: rotate(45deg);
+                border-right: none;
+                border-top: none;
+                outline: none;
+                @media screen and(max-width:768px) {
+                    width: 25px;
+                    height: 25px;
+                    left: -20px;
+                }
+                @media screen and(max-width:480px) {
+                    left: -10px;
+                }
+            }
+            .trick{
+                display: block;
+                position: absolute;
+                bottom: 0;
+                background: #85b749;
+                width: 10px;
+                height: 10px;
+                right: 0;
+            }
+            .item {
+                height: 245px;
+                background-color: #ffffff;
+                border: 0.5px solid #85b749;
+                .item-content {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100%;
+                    text-align: center;
+                    padding: 0 30px;
+                    
+                    .item-date {
+                        font-size: 17px;
+                        font-family: 'NeoSansCyrRegular';
+                        padding: 10px 0;
+                    }
+                    .item-desc {
+                        padding: 10px 0;
+                        font-size: 26px;
+                        color: #316229;
+                        font-family: 'NeoSansCyrRegular';
+                        line-height: 30px;
+                    }
+                    .item-desc a {
+                        color: inherit ;
+                    }
+                }
+            }
+        }
+    }
+}

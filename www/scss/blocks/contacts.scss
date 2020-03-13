@@ -1,0 +1,213 @@
+.contacts {
+    letter-spacing: 2px;
+    @media screen and (min-width:769px) {
+        margin-bottom: 105px;
+    }
+
+    .wrap {
+        max-width: 1920px;
+        margin: auto;
+        
+        .contacts-content {
+            display: flex;
+            
+            @media screen and (max-width:768px) {
+                background-color: #040404;
+            }
+            .left-side {
+                width: 50%;
+                height: 975px;
+                background-image: url(../img/contacts.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                @media screen and (max-width:768px) {
+                    width: 20%;
+                    transform: translateY(80px);
+                    -webkit-transform: translateY(80px);
+                    -moz-transform: translateY(80px);
+                    -ms-transform: translateY(80px);
+                    -o-transform: translateY(80px);
+                }
+            }
+            .right-side {
+                width: 50%;
+                background-color: #040404;
+                padding: 100px 130px 70px 130px;
+                position: relative;
+                @media screen and (min-width:769px) {
+                    padding: 100px 130px 0px 130px;
+                    margin: 50px 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                @media screen and (max-width:1440px) {
+                    padding: 100px 20px 0px 130px;
+                }
+                @media screen and (max-width:1074px) {
+                    padding: 100px 20px 0px 80px;
+                }
+                @media screen and (max-width:768px) {
+                    width: 80%;
+                    padding: 120px 60px 0px 45px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    // margin: 0 0 50px 0;
+                }
+                @media screen and (max-width:480px) {
+                    width: 80%;
+                    padding: 120px 10px 0px 45px;
+                    // margin: 0 0 50px 0;
+                }
+                @media screen and (max-width:425px) {
+                    padding: 120px 10px 0px 25px;
+                }
+                .title {
+                    color: white;
+                    font-family:'NeoSansCyrMedium';
+                    font-size: 52px;
+                    @media screen and (max-width:425px) {
+                        font-size: 42px;
+                    }
+                }
+                .info {
+                    color: white;
+                    display: flex;
+                    padding: 0;
+                    flex-wrap: wrap;
+                    @media screen and (min-width:769px) {
+                        padding: 0;
+                    }
+                    @media screen and (max-width:768px) {
+                        flex-direction: column;
+                    }
+                    span {
+                        background: #8abe4b;
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+                        padding: 7px;
+                        margin-right: 10px;
+                    }
+                    .phone {
+                        margin-right: 120px;
+                        margin-bottom: 50px;
+                        @media screen and (max-width:768px) {
+                            
+                            margin-right: 0;
+                        }
+                        .phone-title {
+                            font-family: 'NeoSansCyrLight';
+                            font-size: 16px;
+                            padding-bottom: 22px;
+                        }
+                        .phone-value {
+                            font-family: 'NeoSansCyrMedium';
+                            font-size: 28px;
+                            width: max-content;
+                            @media screen and (max-width:425px) {
+                                font-size: 22px;
+                            }
+                            a {
+                                color: white;
+                              }
+                        }
+                    }
+                    .email {
+                        .email-title {
+                            font-family: 'NeoSansCyrLight';
+                            font-size: 16px;
+                            padding-bottom: 22px;
+                        }
+                        .email-value {
+                            font-family: 'NeoSansCyrMedium';
+                            font-size: 28px;
+                            @media screen and (max-width:425px) {
+                                font-size: 22px;
+                            }
+                            a {
+                                color: white;
+                              }
+                        }
+
+                    }
+                }
+                .contact-form {
+                    display: flex;
+                    flex-direction: column;
+                    width: 380px;
+                    background-color: white;
+                    padding: 30px;
+                    position: relative;
+                    left: -190px;
+                    @media screen and (max-width:768px) {
+                        left: -130px;
+                    }
+                    @media screen and (max-width:480px) {
+                        left: -138px;
+                    }
+                    @media screen and (max-width:475px) {
+                        left: -120px;
+                        width: 360px;
+                    }
+                    @media screen and (max-width:425px) {
+                        left: -90px;
+                        width: 340px;
+                    }
+                    @media screen and (max-width:360px) {
+                        left: -80px;
+                        width: 290px;
+                    }
+                    p {
+                        color: #1a1a1a;
+                        font-family: 'NeoSansCyrMedium';
+                        font-size: 32px;
+                        margin-bottom: 25px;
+                        text-align: center;
+                    }
+                    input, textarea {
+                        padding: 10px;
+                        width: 100%;
+                        margin-bottom: 10px;
+                        color: #1a1a1a;
+                        font-family: 'NeoSansCyrRegular';
+                        font-size: 16px;
+                        resize: none;
+                    }
+                    button {
+                        box-shadow: 2px 2px 5px #485346;
+                        background-color: #316229;
+                        color: white;
+                        font-family: 'NeoSansCyrRegular';
+                        font-size: 18px;
+                        display: flex;
+                        justify-content: center;
+                        padding: 10px;
+                        text-align: center;
+                        width: 100%;
+                        // box-shadow: none;
+                        border: none;
+                        margin-bottom: 25px;
+                        cursor: pointer;
+                        transition: all 200ms;
+                        -webkit-transition: all 200ms;
+                        -moz-transition: all 200ms;
+                        -ms-transition: all 200ms;
+                        -o-transition: all 200ms;
+                    }
+                    button:hover {
+                        background-color: lighten(#316229, 10%);
+                        transition: all 200ms;
+                        -webkit-transition: all 200ms;
+                        -moz-transition: all 200ms;
+                        -ms-transition: all 200ms;
+                        -o-transition: all 200ms;
+                    }
+                }
+            }
+        }
+    }
+}

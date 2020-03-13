@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Light"), local("OpenSans-Light"),
+    url("./../../fonts/pensanslight.woff2") format("woff2"),
+    url("./../../fonts/pensanslight.woff") format("woff"),
+    url("./../../fonts/pensanslight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Light Italic"), local("OpenSansLight-Italic"),
+    url("./../../fonts/pensanslightitalic.woff2") format("woff2"),
+    url("./../../fonts/pensanslightitalic.woff") format("woff"),
+    url("./../../fonts/pensanslightitalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans"), local("OpenSans"),
+    url("./../../fonts/pensans.woff2") format("woff2"),
+    url("./../../fonts/pensans.woff") format("woff"),
+    url("./../../fonts/pensans.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Italic"), local("OpenSans-Italic"),
+    url("./../../fonts/pensansitalic.woff2") format("woff2"),
+    url("./../../fonts/pensansitalic.woff") format("woff"),
+    url("./../../fonts/pensansitalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Semibold"), local("OpenSans-Semibold"),
+    url("./../../fonts/pensanssemibold.woff2") format("woff2"),
+    url("./../../fonts/pensanssemibold.woff") format("woff"),
+    url("./../../fonts/pensanssemibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Semibold Italic"), local("OpenSans-SemiboldItalic"),
+    url("./../../fonts/pensanssemibolditalic.woff2") format("woff2"),
+    url("./../../fonts/pensanssemibolditalic.woff") format("woff"),
+    url("./../../fonts/pensanssemibolditalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Bold"), local("OpenSans-Bold"),
+    url("./../../fonts/pensansbold.woff2") format("woff2"),
+    url("./../../fonts/pensansbold.woff") format("woff"),
+    url("./../../fonts/pensansbold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"),
+    url("./../../fonts/pensansbolditalic.woff2") format("woff2"),
+    url("./../../fonts/pensansbolditalic.woff") format("woff"),
+    url("./../../fonts/pensansbolditalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Extrabold"), local("OpenSans-Extrabold"),
+    url("./../../fonts/pensansextrabold.woff2") format("woff2"),
+    url("./../../fonts/pensansextrabold.woff") format("woff"),
+    url("./../../fonts/pensansextrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Extrabold Italic"), local("OpenSans-ExtraboldItalic"),
+    url("./../../fonts/pensansextrabolditalic.woff2") format("woff2"),
+    url("./../../fonts/pensansextrabolditalic.woff") format("woff"),
+    url("./../../fonts/pensansextrabolditalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "NeoSansCyrRegular";
+  src: url("./../../fonts/NeoSansCyr-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "NeoSansCyrMedium";
+  src: url("./../../fonts/NeoSansCyr-Medium.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "NeoSansCyrLight";
+  src: url("./../../fonts/NeoSansCyr-Light.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "MuseoSansCyrl-100";
+  src: url("./../../fonts/MuseoSansCyrl-100.ttf") format("truetype");
+  font-style: normal;
+}

@@ -1,0 +1,79 @@
+.white-list {
+    position: relative;
+    top: 120px;
+    .white-list-content{
+        background-image: url(../img/white_list.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 1034px;
+        height: 345px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        @media screen and (max-width:1174px) {
+            width: 100%;
+            height: 320px;
+        }
+        @media screen and (max-width:480px) {
+            background: white;
+        }
+        .title {
+            font-family: 'NeoSansCyrMedium';
+            color: black;
+            font-size: 58px;
+            margin-bottom: 50px;
+            letter-spacing: 3px;
+            @media screen and (max-width:768px) {
+                font-size: 43px;
+                margin-bottom: 40px;
+            }
+            @media screen and (max-width:480px) {
+                font-size: 36px;
+                margin-bottom: 30px;
+                letter-spacing: 1px;
+            }
+
+        }
+        .btn {
+            a {
+                box-shadow: 2px 2px 5px #485346;
+                background-color: #316229;
+                // padding: 35px 85px;
+                // display: flex;
+                // align-items: center;
+                // width: max-content;
+                width: 280px;
+                height: 75px;
+                display: block;
+                text-align: center;
+                line-height: 75px;
+                font-family: 'NeoSansCyrRegular';
+                color: white;
+                font-size: 18px;
+                transition: all 200ms;
+                -webkit-transition: all 200ms;
+                -moz-transition: all 200ms;
+                -ms-transition: all 200ms;
+                -o-transition: all 200ms;
+                @media screen and (max-width:768px) {
+                    font-size: 13px;
+                    width: 210px;
+                    height: 55px;
+                    line-height: 55px;
+                }
+            }
+            a:hover {
+                background-color: lighten(#316229, 10%);
+                transition: all 200ms;
+                -webkit-transition: all 200ms;
+                -moz-transition: all 200ms;
+                -ms-transition: all 200ms;
+                -o-transition: all 200ms;
+            }
+        }
+
+    }
+}

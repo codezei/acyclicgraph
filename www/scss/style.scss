@@ -1,0 +1,68 @@
+@import "core/normalize.scss";
+@import "core/fonts.scss";
+@import "core/mixins.scss";
+@import "blocks/header.scss";
+@import "blocks/footer.scss";
+@import "pages/contacts.scss";
+@import "blocks/token.scss";
+@import "blocks/white_list.scss";
+@import "blocks/road_map.scss";
+@import "blocks/single_property.scss";
+@import "blocks/media.scss";
+@import "blocks/team.scss";
+@import "blocks/contacts.scss";
+@import "blocks/video.scss";
+html {
+    overflow-x: hidden;
+}
+body {
+    background-color: #000114;
+    overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    outline: none;
+}
+@media screen and(max-width:480px) {
+    .video-team {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .team {
+        padding-bottom: 0px
+    }
+    .video {
+        padding-top: 0px;
+        .wrap {
+            padding: 0;
+            .video-item {
+                padding: 5px 0 !important;
+            }
+        }
+    }
+    .team-content.mob {
+        margin-bottom: 150px;
+    }
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    height: 100%;
+    width: 200px;
+    background-color: rgba($color:#000114, $alpha: 0.98);
+    border-right: 0.5px solid #8abe4b;
+    z-index: 2;
+}
+.overlay.active {
+    display: block;
+}
+html.active {
+    overflow-y: hidden;
+}
+.media, .video {
+    display: none;
+}
